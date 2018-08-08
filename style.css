@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Mukta');
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('assets/fonts/SFProText-Regular.woff2') format('woff2'), url('assets/fonts/SFProText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'SF Pro Text'; 
+    padding: 20px;
+    background: #eee;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.image {
+    background-color: #bbb;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav ul {
+	text-align: center;
+	background: white;
+	padding: 0;
+	margin: 0;
+}
+
+.nav ul .dehaze{
+	text-align: left;
+}
+.nav li {
+    padding: 10px 50px;
+    display: inline-block;
+}
+.nav li a{
+   color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.logo{
+	font-family: 'Pacifico', cursive;
+}
+ 
+
+
+img{
+  display: inline-block;
+   margin-top: -10px;
+}
+
+.nepali{
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.swagatam{
+    font-size: 200%;
+}
+
+.footer{
+	background-color: #EEE;
+	font-size: 80%;
+	color: black;
+	text-align: center;
+    margin: 25px 10px;
+    padding: 20px;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
